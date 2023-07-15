@@ -1,0 +1,59 @@
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: calc((30 / 1280) * 100vw);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: calc((32 / 1280) * 100vw);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  margin-top: calc((20 / 1280) * 100vw);
+  width: calc((280 / 1280) * 100vw);
+  height: calc((60 / 1280) * 100vw);
+  font-size: calc((26 / 1280) * 100vw);
+  border-radius: calc((10 / 1280) * 100vw);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  background-color: #22a6f2;
+}
+
+button:hover {
+  background-color: #19b6f8;
+}
+
+textarea {
+  margin-top: calc((10 / 1280) * 100vw);
+  width: calc((600 / 1280) * 100vw);
+  height: calc((300 / 1280) * 100vw);
+}
+
+.answer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 700%);
+  width: 100%;
+
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: calc((32 / 1280) * 100vw);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
